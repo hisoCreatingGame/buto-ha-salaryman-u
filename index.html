@@ -52,17 +52,23 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Butoha_Sarariman_v2.loader.js";
+      var loaderUrl = buildUrl + "/Buto-ha_sarari-man_v3.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Butoha_Sarariman_v2.data",
-        frameworkUrl: buildUrl + "/Butoha_Sarariman_v2.framework.js",
-        codeUrl: buildUrl + "/Butoha_Sarariman_v2.wasm",
+        dataUrl: buildUrl + "/Buto-ha_sarari-man_v3.data",
+        frameworkUrl: buildUrl + "/Buto-ha_sarari-man_v3.framework.js",
+        codeUrl: buildUrl + "/Buto-ha_sarari-man_v3.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Buto-ha_Sarari-man1rere",
         productVersion: "1.0",
         showBanner: unityShowBanner,
+        // errorHandler: function(err, url, line) {
+        //    alert("error " + err + " occurred at line " + line);
+        //    // Return 'true' if you handled this error and don't want Unity
+        //    // to process it further, 'false' otherwise.
+        //    return true;
+        // },
       };
 
       // By default, Unity keeps WebGL canvas render target size matched with
